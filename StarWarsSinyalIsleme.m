@@ -7,7 +7,7 @@ subplot(3,1,1)
 plot(soundSignal.Time,soundSignal.y)
 grid on
 sound(soundSignal.y,Fs)
-title('Violin Sound');
+title('Sound Signal');
 tic
 X=fft(soundSignal.y);
 toc
